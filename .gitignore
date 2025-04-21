@@ -1,0 +1,8 @@
+# Node.js dependencies
+node_modules
+
+# Environmental Variables
+.env
+
+# firebase-adminsdk
+reminderxx-firebase-adminsdk-wd9qr-97f3f9f63b.json

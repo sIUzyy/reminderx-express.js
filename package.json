@@ -1,0 +1,27 @@
+{
+  "name": "reminderx",
+  "version": "1.0.0",
+  "description": "RemindeRx: A Medicine Dispensing Device with Notification through Mobile App for Enhnanced Health Management",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon --env-file=.env app.js"
+  },
+  "author": "szy",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^1.8.3",
+    "body-parser": "^1.20.3",
+    "cors": "^2.8.5",
+    "expo-server-sdk": "^3.12.0",
+    "express": "^4.21.1",
+    "express-validator": "^7.2.0",
+    "firebase-admin": "^12.7.0",
+    "mongodb": "^6.12.0",
+    "mongoose": "^8.8.0",
+    "node-cron": "^3.0.3"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.7"
+  }
+}
